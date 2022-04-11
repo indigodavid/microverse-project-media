@@ -1,3 +1,18 @@
-body {
-    width: 100%;
+:root{
+    --main-font: 'Roboto', Arial, sans-serif;
+    --clr-primary: rgb(3,3,3);
+    --bgr-accent: rgb(204,0,0);
+    --clr-accent: rgb(255,255,255);
+    --clr-secondary: rgb(96,96,96);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    color: var(--clr-primary);
+    font-size: 1.2rem;
+}
+
+caption {
+    color: var(--clr-secondary);
 }
