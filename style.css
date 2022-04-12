@@ -13,6 +13,6 @@ html {
     font-size: 1.2rem;
 }
 
-caption {
+#main-title span {
     color: var(--clr-secondary);
 }
