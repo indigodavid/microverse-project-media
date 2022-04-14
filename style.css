@@ -10,8 +10,10 @@ html {
     box-sizing: border-box;
     font-family: var(--main-font);
     color: var(--clr-primary);
-    font-size: 1.2rem;
+    font-size: .8rem;
 }
+
+
 
 img {
     max-width: 100%;
@@ -19,4 +21,10 @@ img {
 
 #main-title span {
     color: var(--clr-secondary);
+}
+
+.comment-time {
+    color: var(--clr-secondary);
+    font-weight: 100;
+    font-size: 95%;
 }
