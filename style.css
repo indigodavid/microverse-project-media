@@ -13,10 +13,32 @@ html {
     font-size: .8rem;
 }
 
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
 img {
     max-width: 100%;
+    display: block;
+}
+
+.related-link img {
+    width: 168px;
+    height: 94px;
+    display: inline-block;
+}
+
+.related-link div {
+    display: inline-block;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+.related-link h3 {
+    line-height:0rem;
 }
 
 #main-title span {
@@ -27,4 +49,8 @@ img {
     color: var(--clr-secondary);
     font-weight: 100;
     font-size: 95%;
+}
+
+#menu-logo a{
+    display: inline-block;
 }
