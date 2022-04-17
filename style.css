@@ -44,7 +44,7 @@ header > * {
     vertical-align: middle;
     flex-grow: 1;
     flex-shrink: 1;
-    display: inline-flex;
+    display: flex;
 }
 
 #search-bar {
@@ -155,8 +155,11 @@ ul {
 }
 
 #user-links a{
-    height: 50%;
-    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#user-links > a > * {
+    vertical-align: middle;
 }
 
 #user-links {
@@ -185,7 +188,7 @@ ul {
     background-color: var(--clr-primary);
 }
 
-.user {
+.user img {
     border-radius: 50%;
     width: 40px;
     height: 40px;
